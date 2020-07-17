@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Header from './components/Header';
 import Main from './components/Main';
+import Card from './components/Card'
 import Footer from './components/Footer';
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
@@ -11,6 +12,9 @@ ReactDOM.render(
   <React.StrictMode>
     <Header />
     <Main />
+    <div className='tc'>
+    	<Card />
+    </div>
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')
