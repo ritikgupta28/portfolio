@@ -1,6 +1,6 @@
 import React from 'react';
 import Photo from './images/both.jpg';
-import './Card.css'
+import './ProfileCard.css'
 
 const Card = () => {
 	return (

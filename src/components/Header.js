@@ -5,10 +5,10 @@ class Header extends Component {
 	render() {
 		return (
 			<div className='tc h1'>
-			   <p>Profile</p>
-			   <p>Resume </p>
-			   <p>Projects </p>
-			   <p>Contact </p>
+			   <button onClick> Profile </button>
+			   <button onClick> Resume </button>
+			   <button onClick> Projects </button>
+			   <button onClick> Contact </button>
 			</div>
 		)
 	}
