@@ -1,12 +1,37 @@
 img {
 	height: 300px;
+	border: 5px;
+	border-radius: 10px;
+	box-shadow: 5px;
+}
+.co {
+	background: rgb(125, 131, 232);
+	color: white;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+.con {
+	display: flex;
+	justify-content: space-around;
 }
 .tx {
 	text-align: justify;
 	padding-left: 100px;
-	padding-right: 550px;
+	padding-right: 100px; 
 }
 .pt {
-	padding-left: 100px;
-	padding-right: 550px;
+	padding-left: 40px;
+	text-align: justify;
+}
+.vl {
+	border-left: 2px solid green;
+    height: 300px;
+}
+.tl {
+	text-transform: uppercase;
+	padding-left: 150px;
+}
+.pro {
+	margin-bottom: 40px; 
+	margin-top: 2px; 
 }
