@@ -1,5 +1,5 @@
 img {
-	height: 300px;
+	height: 250px;
 	border: 5px;
 	border-radius: 10px;
 	box-shadow: 5px;
@@ -9,6 +9,8 @@ img {
 	color: white;
 	margin-left: 250px;
 	margin-right: 250px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .con {
 	display: flex;
@@ -20,16 +22,16 @@ img {
 	padding-right: 100px; 
 }
 .pt {
-	padding-left: 40px;
+	padding-left: 20px;
 	text-align: justify;
 }
 .vl {
-	border-left: 2px solid green;
+	border-left: 1px solid green;
     height: 300px;
 }
 .tl {
 	text-transform: uppercase;
-	padding-left: 150px;
+	padding-left: 120px;
 }
 .pro {
 	margin-bottom: 40px; 

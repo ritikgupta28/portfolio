@@ -1,7 +1,7 @@
 .h1 {
 	background: red;
-	padding: 25px;
-	margin: 10px;
+	padding: 30px;
+	margin: 15px;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;

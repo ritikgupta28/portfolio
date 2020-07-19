@@ -1,5 +1,6 @@
 .body {
 	padding: 25;
-	margin: 35;
+	margin-left: 25px;
+	margin-right: 25px;
 	border-radius: 10px; 
 }
