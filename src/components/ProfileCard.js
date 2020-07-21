@@ -8,19 +8,18 @@ const Card = () => {
 			<h1 className='pro'>Profile</h1>
 			<div className='con'>
 				<img alt='MyPhoto' src={Photo}/>
-				<div >
-					<h2 className='tl'>My_Name</h2>
-					<p className='tx'>Developer || Competitive programmer</p>
-					<p className='tx'>Don't know what to write about ourself. But ofcourse we are learn coding and development skills.
-					A Developer with strong passion for self-improvement.
-					I have strong Problem Solving skills & bring energy, patience, positivity and 
-					cultural values to the team.</p>
+				<div className='bt'>
+					<h2>Name</h2>
+					<p className='ttl'>Developer | Competitive Programmer</p>
+					<p>Don't know what to write about ourself.
+					But ofcourse learn Problem Solving and Development Skills with strong passion for self-improvement.
+					And also I have good chess skills and bring energy, patience, positivity and cultural values to the team.</p>
 				</div>
-				<div className='vl'></div>
-				<div className='pt'>
-			    	<p>Name: My_Name</p>
-			    	<p>Email:xyz@gmail.com</p>
-			    	<p>Linkdin: @xyz</p>
+				<div className='brdr'></div>
+				<div className='dtls'>
+			    	<p><b>Name:</b> FirstName LastName</p>
+			    	<p><b>Email:</b> UserName@gmail.com</p>
+			    	<p><b>Linkdin:</b> @UserName</p>
 				</div>
 			</div>
 		</div>

@@ -34,10 +34,7 @@ export default class Resume extends React.Component {
 							<h4>School Name</h4>
 							<p>10th  |  CBSE  |  CGPA: X.XX/10.00</p>
 						</div>
-						<h3>ACHIEVEMENTS</h3>
-						<div className='sec'>
-							<li>3* rating on codechef.</li>
-						</div>
+						
 					</div>
 					<div className='rSide'>
 						<h3>CODING SKILLS</h3>
@@ -53,6 +50,10 @@ export default class Resume extends React.Component {
 							<li>React</li>
 							<li>Node.js</li>
 							<li>NoSql</li>
+						</div>
+						<h3>ACHIEVEMENTS</h3>
+						<div className='sec'>
+							<li>3* rating on codechef.</li>
 						</div>
 					</div>
 				</div>
