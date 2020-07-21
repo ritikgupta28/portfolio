@@ -1,0 +1,38 @@
+.co {
+	background: rgb(125, 131, 232);
+	color: white;
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.pro {
+	margin-bottom: 40px; 
+	margin-top: 2px; 
+}
+.con {
+	display: flex;
+	justify-content: space-around;
+}
+.sec {
+	text-align: justify;
+	border-left: 1px solid black;
+}
+h3 {
+	text-align: left;
+	width: 100px;
+	font-size: 15px;
+}
+p {
+	margin-left: 10px;
+}
+li {
+	list-style-type: none;
+	margin-left: 10px;
+}
+h4 {
+	margin-left: 10px;
+}
+.lSide {
+	font-size: 10px;
+}
