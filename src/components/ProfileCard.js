@@ -4,7 +4,7 @@ import './ProfileCard.css'
 
 const Card = () => {
 	return (
-		<div className='dib br3 pa5 grow co'>
+		<div className='dib br3 pa4 grow co'>
 			<h1 className='pro'>Profile</h1>
 			<div className='con'>
 				<img alt='MyPhoto' src={Photo}/>
