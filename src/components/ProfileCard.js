@@ -18,8 +18,8 @@ const Card = () => {
 				<div className='brdr'></div>
 				<div className='dtls'>
 			    	<p><b>Name:</b> FirstName LastName</p>
-			    	<p><b>Email:</b> UserName@gmail.com</p>
-			    	<p><b>Linkdin:</b> @UserName</p>
+			    	<p><b>Email:</b> <a href="">UserName@gmail.com</a></p>
+			    	<p><b>Linkdin:</b> <a href="">@UserName</a></p>
 				</div>
 			</div>
 		</div>

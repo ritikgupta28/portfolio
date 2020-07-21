@@ -38,7 +38,7 @@ img {
 }
 .ttl {
 	text-align: left;
-	text-transform: capitalize;
+	text-transform: uppercase;
 	font-weight: bold;
 }
 h2 {
@@ -46,4 +46,20 @@ h2 {
 }
 p {
 	font-size: 16px;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: blue;
 }

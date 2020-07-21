@@ -1,15 +1,19 @@
-.h1 {
-	background: red;
-	padding: 30px;
-	margin: 15px;
+.h {
+	padding: 20px;
+	margin: 10px;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
 }
+.name {
+	padding-left: 20px;
+	margin-right: 800px;
+}
 button {
 	padding: 10px;
-	margin: 25px;
-	background-color: red;
+	padding-left: 20px;
+	margin: 10px;
+	padding-right: 20px;
 	border: 0;
 	cursor: pointer;
 }

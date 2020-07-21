@@ -4,7 +4,7 @@ import './ResumeCard.css'
 export default class Resume extends React.Component {
 	render() {
 		return (
-			<div className='dib br3 pa5 grow co'>
+			<div className='dib br3 grow co'>
 				<h1 className='pro'>Resume</h1>
 				<div className='con'>
 					<div className='lSide'>

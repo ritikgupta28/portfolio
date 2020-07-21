@@ -1,8 +1,12 @@
 .co {
 	background: rgb(125, 131, 232);
 	color: white;
-	margin-left: 250px;
-	margin-right: 250px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 40px;
+	padding-left: 40px;
+	margin-left: 200px;
+	margin-right: 200px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
