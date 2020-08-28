@@ -10,36 +10,18 @@ export default class App extends React.Component {
 			route: 'profile'
 		} 
 	}
-	handler1() {
-        this.setState({
-            route: 'profile'
-        });
-    }
-    handler2() {
-        this.setState({
-            route: 'resume'
-        });
-    }
-    handler3() {
-        this.setState({
-            route: 'project'
-        });
-    }
-    handler4() {
-        this.setState({
-            route: 'contact'
-        });
-    }
+
+	onRouteChange = (route) => {
+		this.setState({ route: route })
+	}
+
 	render() {
 		return (
 			<div>
 				<Header 
-				action1={this.handler1.bind(this)} 
-				action2={this.handler2.bind(this)} 
-				action3={this.handler3.bind(this)} 
-				action4={this.handler4.bind(this)} 
+				 onRouteChange={this.onRouteChange.bind(this)}
 				/>
-				<Main ss={this.state.route} />
+				<Main route={this.state.route} />
 				<Footer />
 			</div>
 		)

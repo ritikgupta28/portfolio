@@ -1,14 +1,8 @@
 .co {
 	background: rgb(125, 131, 232);
 	color: white;
-	padding-top: 20px;
-	padding-bottom: 40px;
-	padding-right: 40px;
-	padding-left: 40px;
-	margin-left: 200px;
-	margin-right: 200px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	padding: 40px;
+	margin: 10px 200px;
 }
 .pro {
 	margin-bottom: 25px;

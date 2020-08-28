@@ -1,7 +1,9 @@
-p {
-	padding: 0;
-	margin: 1;
-}
 .im {
 	height: 23px;
+}
+.tc1 {
+	padding: '10px';
+	text-align: center;
+	background-color: black;
+	color: white;
 }
